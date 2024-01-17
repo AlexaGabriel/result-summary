@@ -12,49 +12,47 @@
   <title>Frontend Mentor | Results summary component</title>
 </head>
 
-<body class="h-screen flex justify-center justify-items-center content-center items-center font-Hanken">
-  <main class="max-w h-96 flex items-center  ">
+<body class="h-screen flex justify-center justify-items-center content-center items-center font-Hanken ">
+  <main
+    class=" max-md:max-w-96 rounded-3xl h-80 flex max-md:flex-col max-md:h-full max-md:rounded-none bg-white items-center shadow-xl">
     <article
-      class=" w-56 h-72 bg-gradient-to-b from-bluep to-bluepr flex justify-center gap-2 items-center content-center flex-col rounded-3xl">
+      class="z-10 relative w-60 max-md:w-64 max-md:h-60 h-80 bg-gradient-to-b from-bluep to-bluepr flex justify-center gap-2 items-center content-center flex-col rounded-3xl  max-md:rounded-t-none max-md:rounded-b-3xl">
       <p class="text-white opacity-55">Your Result</p>
       <section
-        class="w-28 h-28 bg-gradient-to-b from-violetb to-persinab rounded-full flex flex-col justify-center items-center">
+        class="w-28 max-md:w-24 h-28 max-md:h-24 bg-gradient-to-b from-violetb to-persinab rounded-full flex flex-col justify-center items-center">
         <h2 class="text-center text-4xl font-extrabold text-white leading-none">76</h2>
         <p class="text-center text-sm text-white opacity-55 m-0 p-0">of 100</p>
       </section>
       <h2 class="font-bold text-white">Great</h2>
-      <p class="text-center font-medium text-sm w-44 text-white opacity-55">You scored higher than 65% of the people
-        who have taken
-        these tests.</p>
+      <p class="text-center font-medium text-sm w-44 text-white opacity-55">You scored higher than 65% of the people who
+        have taken these tests.</p>
     </article>
-
-    <article class=" h-72 shadow-xl flex flex-col gap-3 rounded-r-3xl">
-      <h2>Summary</h2>
-      <section class="bg-lired px-12 py-2 flex">
+    <article class="z-0 px-7 relative h-80 flex flex-col justify-center gap-3 rounded-r-3xl">
+      <h2 class="font-bold">Summary</h2>
+      <section class="bg-lired w-48 py-2 flex justify-center rounded-md">
         <img class="inline" src="../assets/images/icon-reaction.svg" alt="">
-        <h3 class="inline">Reaction</h3>
-        <p>80/100</p>
+        <h3 class="inline text-sm font-semibold mr-14 ml-1 text-liredp">Reaction</h3>
+        <p class="text-sm font-semibold">80/100</p>
       </section>
-      <section class="bg-oryel px-10 py-2 flex">
+      <section class="bg-oryel w-48 py-2 flex justify-center rounded-md">
         <img class="inline" src="../assets/images/icon-memory.svg" alt="">
-        <h3 class="inline">Memory</h3>
-        <p class="inline">92/100</p>
+        <h3 class="inline text-sm font-semibold mr-14 ml-1 text-oryelp">Memory</h3>
+        <p class="text-sm font-semibold">92/100</p>
       </section>
-      <section class="bg-grteal px-10 py-2 flex">
+      <section class="bg-grteal w-48 py-2 flex justify-center rounded-md">
         <img class="inline" src="../assets/images/icon-verbal.svg" alt="">
-        <h3 class="inline">Verbal</h3>
-        <p class="inline">61/100</p>
+        <h3 class="inline text-sm font-semibold mr-14 ml-1 text-grtealp">Verbal</h3>
+        <p class="text-sm font-semibold">61/100</p>
       </section>
-      <section class="bg-cobablue px-10 py-2 flex">
+      <section class="bg-cobablue w-48 py-2 flex justify-center rounded-md">
         <img class="inline" src="../assets/images/icon-visual.svg" alt="">
-        <h3 class="inline">Visual</h3>
-        <p class="inline">72/100</p>
+        <h3 class="inline text-sm font-semibold mr-14 ml-1 text-cobabluep">Visual</h3>
+        <p class="text-sm font-semibold">72/100</p>
       </section>
-      <button>Continue</button>
+      <button
+        class="bg-dark hover:bg-gradient-to-b from-bluep  to-bluepr rounded-3xl py-1.5 text-white mt-2">Continue</button>
     </article>
   </main>
-
-
 </body>
 
 </html>

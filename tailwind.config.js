@@ -21,6 +21,11 @@ module.exports = {
       grteal: "hsla(166, 100%, 37%, 0.1)",
       cobablue: "hsla(234, 85%, 45%, 0.1)",
       white: " hsl(0, 0%, 100%)",
+      oryelp: "hsl(39, 100%, 56%)",
+      grtealp: "hsl(166, 100%, 37%)",
+      cobabluep: "hsl(234, 85%, 45%)",
+      liredp: "hsl(0, 100%, 67%)",
+      dark: "hsl(224, 30%, 27%)",
     },
 
     extend: {
